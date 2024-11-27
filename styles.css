@@ -1,0 +1,17 @@
+.experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.experience-header img.company-logo {
+    margin-left: auto; /* Moves logo to the right */
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-right: 10px; /* Adds a gap between the logo and the edge */
+}
+
+.experience-header div {
+    flex-grow: 1;
+}
